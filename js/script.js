@@ -1,1 +1,1 @@
-// Ini Javascript Eksternal
+// Javascript Eksternal
