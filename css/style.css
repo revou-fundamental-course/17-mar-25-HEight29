@@ -2,6 +2,7 @@
 
 body {
     background-color: #2fc3ff;
+    font-family: Berlin;
 }
 
 .main-header > h1 {
@@ -11,6 +12,7 @@ body {
     padding: 25px;
     text-align: center;
 }
+
 
 main {
     background-color: #ffffff;
@@ -42,6 +44,39 @@ main {
 }
 
 .nav-nonaktif {
-    background-color: #2fc3ff;
+    background-color: #ffffff;
+    border: 1px #636363 solid;
     color: #000000;
+}
+
+
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-header {
+    background-color: #002838;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.section-image {
+    background-image: url(../assets/persegi-bangun-datar.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+}
+
+.section-perhitungan {
+    border: 1px solid;
+    height: 300px;
+}
+
+
+footer {
+    text-align: center;
+    color: #ffffff;
 }
