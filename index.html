@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katik - Hadi</title>
+    <title>KATIK | Kalkulator Matematik</title>
 
     <!-- CSS Eksternal -->
     <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
     <!-- Header -->
-    <header class="main-header">
-        <h1>Katik (Kalkulator Matematik)</h1>
+    <header>
+        <div class="container-utama">
+            <img src="assets/LOGO-Katik.png" alt="Logo" class="logo-utama" />
+            <h1 class="judul-utama">Kalkulator Matematik</h1>
+        </div>
     </header>
+    <!-- Header -->
 
     <!-- Main -->
     <main>
-        <header>
-            <h1>Welcome to Katik</h1>
-            <p>Hai... Selamat datang di Katik</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </header>
+        <!-- Sambutan -->
+        <div class="sambutan-content">
+            <h2>Welcome to KATIK</h2>
+            <p>Hai... Selamat datang di Katik.</p>
+            <p>Situs ini akan membantu anda untuk menghitung luas dan keliling bangun datar dengan lebih cepat dan
+                mudah.</p>
+            <p>Silahkan pilih bangun datar yang ingin anda hitung.</p>
+        </div>
+        <!-- Sambutan -->
 
         <!-- Navigasi -->
-        <div class="nav-fitur">
+        <div class="navbar">
             <a href="" class="nav-aktif">Persegi</a>
             <a href="" class="nav-nonaktif">Persegi Panjang</a>
         </div>
+        <!-- Navigasi -->
 
-        <!-- Section Luas -->
+        <!-- Section -->
         <section>
-            <header class="section-header">
-                <h1>Luas Persegi</h1>
-            </header>
+            <div class="section-header">
+                <h1>Persegi</h1>
+            </div>
 
-            <!-- Gambar Luas -->
-            <div class="section-image"></div>
+            <!-- Gambar -->
+            <div class="section-image">
+                <img src="assets/Persegi.png" alt="Persegi" class="keterangan-gambar" />
+            </div>
 
             <!-- Konten Penghitungan -->
-            <div class="section-perhitungan"></div>
-        </section>
+            <div class="section-perhitungan">
+                <h3>Hitung Keliling dan Luas Persegi</h3>
+                <label for="sisi-persegi">Nilai Sisi</label>
+                <input type="number" id="input-sisi" placeholder="Masukkan Nilai Sisi" />
+                <button onclick="hitung()">Hitung</button>
+                <button onclick="reset()">Reset</button>
+            </div>
 
-        <!-- Section Keliling -->
-        <section>
-            <header class="section-header">
-                <h1>Keliling Persegi</h1>
-            </header>
-            <!-- Gambar Keliling -->
-            <div class="section-image"></div>
+            <!-- Tombol Perhitungan -->
+            <div>
 
-            <!-- Konten Penghitungan -->
-            <div class="section-perhitungan"></div>
+            </div>
+
         </section>
+        <!-- Section -->
 
     </main>
+    <!-- Main -->
 
     <!-- Footer -->
     <footer>
         <p>Made by Hadi@2025</p>
     </footer>
 </body>
+
 </html>
