@@ -257,3 +257,35 @@ footer {
     text-align: center;
     color: #ffffff;
 }
+
+
+@media (max-width: 768px) {
+    .container-utama{
+        width: 100%;
+    }
+
+    .logo-utama {
+        width: 30%;
+        height: auto;
+    }
+
+    .judul-utama {
+        width: 70%;
+        height: auto;
+    }
+
+    .section-image {
+        width: 75%;
+        height: auto;
+    }
+
+    .section-hasil {
+        width: 80%;
+        height: auto;
+    }
+
+    #hasilKeliling, #hasilLuas {
+        width: 20%;
+        height: auto;
+    }
+}
