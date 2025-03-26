@@ -1,5 +1,3 @@
-// ini Javascript Eksternal
-
 // tombol hitung persegi
 function hitungKeliling() {
     const inputSisi = parseInt(document.getElementById("nilai-sisi").value);
@@ -10,7 +8,6 @@ function hitungKeliling() {
     document.getElementById("hasilKeliling").innerText = `K = ${keliling}`;
     document.getElementById("hasilLuas").innerText = `L = ${luas}`;
 }
-// tombol hitung persegi
 
 // tombol hitung persegi panjang
 function hitungKelilingpp() {
@@ -23,21 +20,17 @@ function hitungKelilingpp() {
     document.getElementById("hasilKeliling").innerText = `K = ${keliling}`;
     document.getElementById("hasilLuas").innerText = `L = ${luas}`;
 }
-// tombol hitung persegi panjang
 
-// tombol reset
+// tombol reset persegi
 function reset() {
     document.getElementById("nilai-sisi").value="";
-    document.getElementById("nilai-panjang").value="";
-    document.getElementById("nilai-lebar").value="";
     document.getElementById("rumuKeliling").innerText=``;
     document.getElementById("rumuLuas").innerText =``;
     document.getElementById("hasilKeliling").innerText =``;
     document.getElementById("hasilLuas").innerText =``;
 }
-// tombol reset
 
-// tombol reset
+// tombol reset persegi panjang
 function resetpp() {
     document.getElementById("nilai-panjang").value="";
     document.getElementById("nilai-lebar").value="";
@@ -46,4 +39,3 @@ function resetpp() {
     document.getElementById("hasilKeliling").innerText =``;
     document.getElementById("hasilLuas").innerText =``;
 }
-// tombol reset

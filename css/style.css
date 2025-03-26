@@ -1,9 +1,7 @@
-/* ini CSS Eksternal */
 *, html {
     margin: 0px;
     padding: 0px;
 }
-
 
 body {
     background-color: #2fc3ff;
@@ -35,7 +33,6 @@ header {
     font-size: 35px;
     font-weight: bold;
 }
-
 
 main {
     background-color: #ffffff;
@@ -72,6 +69,14 @@ main {
     color: #ffffff;
 }
 
+.nav-aktif:hover {
+    transform: translateY(-2px);
+}
+
+.nav-aktif:active {
+    transform: translateY(2px);
+}
+
 .nav-nonaktif {
     background-color: #ffffff;
     border: 1px #636363 solid;
@@ -85,8 +90,12 @@ main {
                 inset -5px -5px 6px  #001016;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
+    transform: translateY(-2px);
 }
 
+.nav-nonaktif:active {
+    transform: translateY(2px);
+}
 
 section {
     margin-top: 20px;
@@ -97,8 +106,6 @@ section {
     color: #ffffff;
     padding: 15px;
 }
-
-
 
 .section-image {
     display: flex;
@@ -178,6 +185,14 @@ button {
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 .section-hasil {
