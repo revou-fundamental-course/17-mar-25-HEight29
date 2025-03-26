@@ -35,7 +35,6 @@ function reset() {
 }
 // tombol reset
 
-
 // tombol reset
 function resetpp() {
     document.getElementById("nilai-panjang").value="";
