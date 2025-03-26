@@ -28,7 +28,6 @@ function hitungKelilingpp() {
 // tombol reset
 function reset() {
     document.getElementById("nilai-sisi").value="";
-    document.getElementById("nilai-panjang").value="";
     document.getElementById("nilai-lebar").value="";
     document.getElementById("rumuKeliling").innerText=``;
     document.getElementById("rumuLuas").innerText =``;
