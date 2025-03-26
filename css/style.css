@@ -40,7 +40,7 @@ header {
 main {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 0px;
+    padding-bottom: 20px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
@@ -90,7 +90,6 @@ main {
 
 section {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .section-header {
@@ -122,7 +121,9 @@ section {
 }
 
 .section-perhitungan {
-    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -134,12 +135,31 @@ label {
     font-weight: bold;
 }
 
-#input-sisi {
+#nilai-sisi {
     display: flex;
     padding: 5px;
     width: 97%;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+#nilai-panjang {
+    display: flex;
+    padding: 5px;
+    width: 97%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+#nilai-lebar {
+    display: flex;
+    padding: 5px;
+    width: 97%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
 }
 
 button {
@@ -158,6 +178,63 @@ button {
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.section-hasil {
+    border-radius: 8px;
+    background: #f2f2f2;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+}
+
+.rumus-perhitungan {
+    padding: 15px;
+    display: flex;
+    justify-content:space-around
+    
+}
+
+.hasil-perhitungan {
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: start;
+}
+
+#rumuKeliling, #rumuLuas {
+    min-height: 25px;
+}
+
+#hasilKeliling, #hasilLuas {
+    background-color: #ffffff;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 25px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #ffffff, #dadada);
+    box-shadow: 10px 10px 20px #cecece,
+                -10px -10px 20px #ffffff;
+}
+
+#rumuKelilingpp, #rumuLuaspp {
+    min-height: 25px;
+}
+
+#hasilKelilingpp, #hasilLuaspp {
+    background-color: #ffffff;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 25px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #ffffff, #dadada);
+    box-shadow: 10px 10px 20px #cecece,
+                -10px -10px 20px #ffffff;
 }
 
 footer {

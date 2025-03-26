@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KATIK | Persegi</title>
+    <title>KATIK | Persegi Panjang</title>
 
     <!-- CSS Eksternal -->
     <link rel="stylesheet" href="css\style.css">
@@ -34,34 +34,36 @@
 
         <!-- Navigasi -->
         <div class="navbar">
-            <a href="#" class="nav-aktif">Persegi</a>
-            <a href="persegi-panjang.html" class="nav-nonaktif">Persegi Panjang</a>
+            <a href="index.html" class="nav-nonaktif">Persegi</a>
+            <a href="#" class="nav-aktif">Persegi Panjang</a>
         </div>
         <!-- Navigasi -->
 
         <!-- Section -->
         <section>
             <div class="section-header">
-                <h1>Persegi</h1>
+                <h1>Persegi Panjang</h1>
             </div>
 
             <!-- Gambar -->
             <div class="section-image">
-                <img src="assets/Persegi.png" alt="Persegi" class="keterangan-gambar" />
+                <img src="assets/Persegi-Panjang.png" alt="Persegi" class="keterangan-gambar" />
             </div>
 
             <!-- Konten Penghitungan -->
             <div class="section-perhitungan">
-                <h3>Hitung Keliling dan Luas Persegi</h3>
-                <label for="nilai-sisi">Nilai Sisi</label>
-                <input type="number" id="nilai-sisi" placeholder="Masukkan nilai sisi" />
-                <button onclick="hitungKeliling()">Hitung</button>
-                <button onclick="reset()">Reset</button>
+                <h3>Hitung Keliling dan Luas Persegi Panjang</h3>
+                <label for="nilai-panjang">Nilai Panjang</label>
+                <input type="number" id="nilai-panjang" placeholder="Masukkan nilai panjang" />
+                <label for="nilai-lebar">Nilai lebar</label>
+                <input type="number" id="nilai-lebar" placeholder="Masukkan nilai lebar" />
+                <button onclick="hitungKelilingpp()">Hitung</button>
+                <button onclick="resetpp()">Reset</button>
             </div>
 
             <!-- Hasil Perhitungan -->
             <div class="section-hasil">
-                <h4>Keliling dan Luas Persegi:</h4>
+                <h4>Keliling dan Luas Persegi Panjang:</h4>
                 <div class="rumus-perhitungan">
                     <p id="rumuKeliling"></p>
                     <p id="rumuLuas"></p>
